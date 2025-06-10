@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Supabase local files
+supabase/.temp/
+supabase/.output/
+supabase/.env
+supabase/migrations/.snapshots/
+
+# IDEss
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Optional: Mac/Linux swap files
+*.swp
+*.swo
